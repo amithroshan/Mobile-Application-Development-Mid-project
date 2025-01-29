@@ -12,7 +12,7 @@ class BookstoreApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Ceylon Bookstore',
+      title: 'Child Bookstore',
       theme: ThemeData(
         primarySwatch: Colors.blueGrey,
       ),

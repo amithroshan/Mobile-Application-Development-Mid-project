@@ -52,9 +52,9 @@ dev_dependencies:
 # The following section is specific to Flutter packages.
 flutter:
   assets:
-    - assets/images/rich-dad-poor-dad.jpg
-    - assets/images/the-alchemist.jpg
-    - assets/images/men-are-from-mars.jpg
+    - assets/images/the conjurers fight of thr fallen.png
+    - assets/images/the lands of luxury.png
+    - assets/images/we could be heroes.png
 
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in

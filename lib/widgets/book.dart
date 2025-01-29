@@ -32,7 +32,7 @@ class Book extends StatelessWidget {
               textAlign: TextAlign.center,
               style: const TextStyle(
                 fontSize: 28,
-                color: Color.fromARGB(255, 93, 122, 136),
+                color: Color.fromARGB(255, 6, 18, 187),
                 fontWeight: FontWeight.bold,
               ),
             ),

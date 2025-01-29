@@ -8,27 +8,34 @@ class BookList extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Ceylon Bookstore'),
-        backgroundColor: Colors.blueGrey,
+        title: const Text(
+          'Child Bookstore',
+          style: TextStyle(
+            color: Color.fromARGB(
+                255, 146, 236, 0), // Change this to your desired color
+          ),
+        ),
+        backgroundColor: const Color.fromARGB(255, 73, 100, 185),
       ),
       body: ListView(
         children: const [
           Book(
-            coverImagePath: 'assets/images/rich-dad-poor-dad.jpg',
-            title: 'Rich Dad, Poor Dad',
-            author: 'Robert T. Kiyosaki',
+            coverImagePath:
+                'assets/images/the conjurers fight of thr fallen.png',
+            title: 'The Conjurers',
+            author: 'Brian Anderson',
             price: 1250.0,
           ),
           Book(
-            coverImagePath: 'assets/images/the-alchemist.jpg',
-            title: 'The Alchemist',
-            author: 'Paulo Coelho',
+            coverImagePath: 'assets/images/the lands of luxury.png',
+            title: 'The Lands of Luxury',
+            author: 'Jon Tilton',
             price: 1000.0,
           ),
           Book(
-            coverImagePath: 'assets/images/men-are-from-mars.jpg',
-            title: 'Men Are From Mars',
-            author: 'John Gray',
+            coverImagePath: 'assets/images/we could be heroes.png',
+            title: 'We Could be Heroes',
+            author: 'Margaret Finnegan',
             price: 950.0,
           ),
         ],
