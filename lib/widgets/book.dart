@@ -34,6 +34,7 @@ class Book extends StatelessWidget {
                 fontSize: 28,
                 color: Color.fromARGB(255, 6, 18, 187),
                 fontWeight: FontWeight.bold,
+                fontFamily: 'Roboto',
               ),
             ),
             const SizedBox(height: 8),
@@ -45,6 +46,7 @@ class Book extends StatelessWidget {
               style: const TextStyle(
                   fontSize: 18,
                   color: Colors.black,
+                  fontWeight: FontWeight.bold,
                   fontStyle: FontStyle.italic),
             ),
             const SizedBox(height: 16),
@@ -79,7 +81,7 @@ class Book extends StatelessWidget {
                     // Add functionality here
                   },
                   style: ElevatedButton.styleFrom(
-                    backgroundColor: const Color.fromARGB(255, 195, 198, 199),
+                    backgroundColor: Colors.brown[300],
                     shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(13),
                     ),
@@ -87,6 +89,7 @@ class Book extends StatelessWidget {
                   child: const Text('Add to cart',
                       style: TextStyle(
                           fontSize: 16, // Adjust the size as needed
+                          color: Color.fromARGB(255, 38, 80, 184),
                           fontWeight: FontWeight.bold)),
                 ),
               ],
